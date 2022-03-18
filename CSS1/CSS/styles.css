@@ -1,0 +1,33 @@
+.container{
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #2A467E;
+    border: 4px solid rgb(235, 31, 31);
+    border-style:dotted;
+}
+
+.top,
+.centre,
+.bottom{
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    border: 1px solid #329551;
+    border-radius: 10px;
+    width: 50vw;
+    margin: auto;
+}
+
+.top{
+    color: #5b93c8;
+}
+
+.centre{
+    color: #CB71D0;
+    margin-top: 13%;
+}
+
+.bottom{
+    color: #D2CB79;
+    margin-top: 13%;
+}
